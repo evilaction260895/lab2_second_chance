@@ -38,6 +38,7 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tP1_label3 = new System.Windows.Forms.Label();
             this.tP1_textBox3 = new System.Windows.Forms.TextBox();
+            this.tP1_label4 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -54,6 +55,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.tP1_label4);
             this.tabPage1.Controls.Add(this.tP1_textBox3);
             this.tabPage1.Controls.Add(this.tP1_label3);
             this.tabPage1.Controls.Add(this.tP1_label2);
@@ -141,6 +143,17 @@
             this.tP1_textBox3.Size = new System.Drawing.Size(118, 20);
             this.tP1_textBox3.TabIndex = 6;
             // 
+            // tP1_label4
+            // 
+            this.tP1_label4.AutoSize = true;
+            this.tP1_label4.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tP1_label4.Location = new System.Drawing.Point(148, 13);
+            this.tP1_label4.Name = "tP1_label4";
+            this.tP1_label4.Size = new System.Drawing.Size(134, 33);
+            this.tP1_label4.TabIndex = 7;
+            this.tP1_label4.Text = "Умножение";
+            this.tP1_label4.Click += new System.EventHandler(this.label1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -168,6 +181,7 @@
         private System.Windows.Forms.TextBox tP1_textBox1;
         private System.Windows.Forms.Label tP1_label3;
         private System.Windows.Forms.TextBox tP1_textBox3;
+        private System.Windows.Forms.Label tP1_label4;
     }
 }
 
