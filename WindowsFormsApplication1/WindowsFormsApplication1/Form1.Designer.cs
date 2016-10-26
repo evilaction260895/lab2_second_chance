@@ -30,15 +30,15 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tP1_label4 = new System.Windows.Forms.Label();
+            this.tP1_textBox3 = new System.Windows.Forms.TextBox();
+            this.tP1_label3 = new System.Windows.Forms.Label();
             this.tP1_label2 = new System.Windows.Forms.Label();
             this.tP1_label1 = new System.Windows.Forms.Label();
             this.tP1_textBox2 = new System.Windows.Forms.TextBox();
             this.tP1_textBox1 = new System.Windows.Forms.TextBox();
             this.tP1_button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tP1_label3 = new System.Windows.Forms.Label();
-            this.tP1_textBox3 = new System.Windows.Forms.TextBox();
-            this.tP1_label4 = new System.Windows.Forms.Label();
             this.tP2_label3_Green = new System.Windows.Forms.Label();
             this.tP2_label2_Blue = new System.Windows.Forms.Label();
             this.tP2_label1_Red = new System.Windows.Forms.Label();
@@ -54,7 +54,7 @@
             this.tabControl1.Location = new System.Drawing.Point(59, 50);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(364, 282);
+            this.tabControl1.Size = new System.Drawing.Size(397, 313);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -70,10 +70,38 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(356, 256);
+            this.tabPage1.Size = new System.Drawing.Size(389, 287);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tP1_label4
+            // 
+            this.tP1_label4.AutoSize = true;
+            this.tP1_label4.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tP1_label4.Location = new System.Drawing.Point(148, 13);
+            this.tP1_label4.Name = "tP1_label4";
+            this.tP1_label4.Size = new System.Drawing.Size(134, 33);
+            this.tP1_label4.TabIndex = 7;
+            this.tP1_label4.Text = "Умножение";
+            this.tP1_label4.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // tP1_textBox3
+            // 
+            this.tP1_textBox3.Location = new System.Drawing.Point(164, 250);
+            this.tP1_textBox3.Name = "tP1_textBox3";
+            this.tP1_textBox3.Size = new System.Drawing.Size(118, 20);
+            this.tP1_textBox3.TabIndex = 6;
+            // 
+            // tP1_label3
+            // 
+            this.tP1_label3.AutoSize = true;
+            this.tP1_label3.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tP1_label3.Location = new System.Drawing.Point(44, 245);
+            this.tP1_label3.Name = "tP1_label3";
+            this.tP1_label3.Size = new System.Drawing.Size(105, 25);
+            this.tP1_label3.TabIndex = 5;
+            this.tP1_label3.Text = "Результат:";
             // 
             // tP1_label2
             // 
@@ -128,40 +156,11 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(420, 303);
-            this.tabPage2.Size = new System.Drawing.Size(356, 256);
+            this.tabPage2.Size = new System.Drawing.Size(389, 287);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
-            // 
-            // tP1_label3
-            // 
-            this.tP1_label3.AutoSize = true;
-            this.tP1_label3.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tP1_label3.Location = new System.Drawing.Point(44, 245);
-            this.tP1_label3.Name = "tP1_label3";
-            this.tP1_label3.Size = new System.Drawing.Size(105, 25);
-            this.tP1_label3.TabIndex = 5;
-            this.tP1_label3.Text = "Результат:";
-            // 
-            // tP1_textBox3
-            // 
-            this.tP1_textBox3.Location = new System.Drawing.Point(164, 250);
-            this.tP1_textBox3.Name = "tP1_textBox3";
-            this.tP1_textBox3.Size = new System.Drawing.Size(118, 20);
-            this.tP1_textBox3.TabIndex = 6;
-            // 
-            // tP1_label4
-            // 
-            this.tP1_label4.AutoSize = true;
-            this.tP1_label4.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tP1_label4.Location = new System.Drawing.Point(148, 13);
-            this.tP1_label4.Name = "tP1_label4";
-            this.tP1_label4.Size = new System.Drawing.Size(134, 33);
-            this.tP1_label4.TabIndex = 7;
-            this.tP1_label4.Text = "Умножение";
-            this.tP1_label4.Click += new System.EventHandler(this.label1_Click);
             // 
             // tP2_label3_Green
             // 
